@@ -1,3 +1,6 @@
+* {
+    color: #DCE1E9;
+}
 body {
     background-color: #DCE1E9;
 }
@@ -9,4 +12,15 @@ body {
 
 .back-color {
     background-color: #363732;
+}
+.borda-color {
+    border-color: #ea8c55;
+    border-width: 4px;
+    border-style: double groove;
+}
+.xtra-lite {
+    font-weight: lighter;
+}
+.ultra {
+    font-stretch: ultra-expanded;
 }
