@@ -1,5 +1,5 @@
 * {
-    color: #DCE1E9;
+    color: #363732;
 }
 body {
     background-color: #DCE1E9;
@@ -23,4 +23,18 @@ body {
 }
 .ultra {
     font-stretch: ultra-expanded;
+}
+.project-title {
+    color: #363732;
+}
+hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(234, 140, 85, 0), rgba(234, 140, 85, 0.75), rgba(234, 140, 85, 0));
+}
+.orange-font {
+    color: #ea8c55;
+}
+.gainsboro {
+    color: #dce1e9;
 }
