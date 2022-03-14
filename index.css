@@ -1,5 +1,6 @@
 * {
     color: #363732;
+    width: auto;
 }
 body {
     background-color: #DCE1E9;
@@ -37,4 +38,17 @@ hr {
 }
 .gainsboro {
     color: #dce1e9;
+}
+.tall-boy {
+    background-color: #ea8c55;
+    transform: rotate(45deg) translateX(1px) translateY(-1px);
+}
+.tall-boy-butt {
+    background-color: #ea8c55;
+    transform: rotate(225deg) translateX(-1.5px) translateY(1.5px);
+}
+
+.outline-box {
+    background-color: #ea8c55;
+    transform: rotate(225deg);
 }
