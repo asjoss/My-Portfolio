@@ -1,6 +1,8 @@
 * {
     color: #363732;
     width: auto;
+    height: auto;
+    font-size: medium;
 }
 body {
     background-color: #DCE1E9;
@@ -45,10 +47,13 @@ hr {
 }
 .tall-boy-butt {
     background-color: #ea8c55;
-    transform: rotate(225deg) translateX(-1.5px) translateY(1.5px);
+    transform: rotate(225deg) translateX(-24px) translateY(-21px);
 }
 
 .outline-box {
     background-color: #ea8c55;
-    transform: rotate(225deg);
+    transform: rotate(225deg) translateX(-22px) translateY(-21px);
+}
+.text-in-the-area {
+    color: #363732;
 }
