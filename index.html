@@ -4,67 +4,79 @@
   <meta charset="UTF-8">
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
   <link href="index.css" rel="stylesheet">
+  <script defer src="index.js"></script>
   <title>Aaron Joss - Web Developer</title>
 </head>
 
 <body class="box-border font-mono m-1">
+
     <header class="flex justify-between top-color p-3">
         <div>Logo/Home icon</div>
         <div>Menu</div>
         <div>Links
             <a href="https://github.com/asjoss">Github</a>
-            <a href="https://www.linkedin.com/in/aaron-joss-11522170/">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/aaron-joss-11522170/" target="_blank">LinkedIn</a>
             <a>Codepen</a>
         </div>
     </header>
-    <hr/>
+
     <Main>
         <section class="flex justify-center">
             <div class="h-140 w-px mt-8 tall-boy relative origin-top-left"></div>
-            <div class="h-80 w-px mt-12 tall-boy-butt relative origin-bottom-left"></div>
-            <div class="flex justify-between h-104 w-4/5 text-gray-50 back-color my-8 md:flex-row">
-                <div class="flex flex-col w-1/2 m-5">
-                    <h1 class="xtra-lite text-4xl tracking-wider gainsboro">Aaron Joss</h1>
-                    <h2 class="flex-wrap text-6xl tracking-widest gainsboro">Web Developer</h2>
+            <div class="h-80 w-px -mt-4 tall-boy-butt relative origin-bottom-left"></div>
+            <div class="flex flex-wrap justify-between h-104 w-4/5 text-gray-50 back-color my-8 md:flex-row">
+                <div class="flex justify-evenly">
+                    <div class="flex flex-col w-1/2 m-5">
+                        <h1 class="xtra-lite text-4xl tracking-wider gainsboro">Aaron Joss</h1>
+                        <h2 class="flex-wrap text-6xl tracking-widest gainsboro">Web Developer</h2>
+                    </div>
+                    <div class="flex flex-col w-1/2">
+                        <img class="self-end object-contain w-40 h-48 md:float-right" src="images/emojimi.jpg" alt="emoji profile pic">
+                    </div>
                 </div>
-                <div class="flex flex-col w-1/2">
-                    <img class="object-contain w-40 h-48 md:float-right" src="images/emojimi.jpg" alt="emoji profile pic">
-                    <h3 class="flex-wrap leading-loose orange-font p-2"> I love to drum, play guitar, play/watch football, laughing with my daughter,
+                <h3 class="flex self-end leading-loose orange-font w-full p-2 text-justify"> I love to drum, play guitar, play/watch football, laughing with my daughter,
                         (not)reading(ENOUGH!) fiction/non-fiction, watching (too much) TV and films,
                         always up for a challenge and....
                         Favourite snack: Belgian Waffles🤤.
-                    </h3>
-                </div>
+                </h3>
             </div>
-            <div class="h-48 w-px mt-44 outline-box origin-bottom-left"></div>
+            <div class="h-48 w-px outline-box origin-bottom-left"></div>
         </section>
 
 
-        <h2 class="text-4xl project-title text-center ultra align-text-bottom mb-2 mt-4">Projects</h2>
+        <h2 class="text-4xl project-title text-center ultra align-text-bottom mb-2 mt-4 italic tracking-widest">PROJECTS</h2>
         <section class="flex flex-wrap justify-center m-auto">
-            <div class="flex h-96 w-2/5 borda-color m-10 shadow-lg transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none">Project 1 Screenshot</div>
-            <div class="flex h-96 w-2/5 borda-color m-10 shadow-lg transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none">Project 2 Screenshot</div>
-            <div class="flex h-96 w-2/5 borda-color m-10 shadow-lg transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none">Project 3 Screenshot</div>
+            <div class="flex flex-col h-96 w-2/5 borda-color m-10 shadow-lg transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none z-0">
+            Project 1 Screenshot<img class="object-scale-down z-10 md:object-scale-down" src="images/octokirb.JPG" alt="screenshot of Octocat and Kirby talking to each other">
+
+            </div>
+            <div class="flex flex-wrap h-96 w-2/5 borda-color m-10 shadow-lg transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none">
+                <img class="object-scale-down z-10 md:object-scale-down" src="images/resptime.JPG" alt="screenshot of response time tracker">
+            Project 2 Screenshot
+            </div>
+            <div class="flex flex-wrap h-96 w-2/5 borda-color m-10 shadow-lg transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none">
+                <img class="object-scale-down z-10 md:object-scale-down" src="images/formexercise.JPG" alt="screenshot of form inputs with error message built in Java Script">Project 3 Screenshot
+            </div>
             <div class="flex h-96 w-2/5 borda-color m-10 shadow-lg transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none">Project 4 Screenshot</div>
         </section>
-        <hr class="m-auto"/>
+
     </Main>
     <footer class="flex justify-evenly items-baseline text-1xl project-title align-text-bottom mb-2 mt-2 back-color">
-        <h3 class="flex self-center gainsboro">Contact me 📡</h3>
+        <h3 class="flex self-center orange-font">Contact me 📡</h3>
         <form action="#">
-        <label for="email">
-                <h4>Email</h4>
-                <input type="email" id="email" placeholder="Enter your email">
-        </label>
-        <label for="message">
-            <h4>Message</h4>
-            <textarea id="message">Your Message</textarea>
-        </label>
+            <label for="email">
+                <h4 class="orange-font">Email</h4>
+                <input type="email" id="email" class="text-in-the-area" placeholder="Enter your email">
+            </label>
+            <label for="message">
+                <h4 class="orange-font">Message</h4>
+                <textarea id="message" class="text-in-the-area">Your Message</textarea>
+             </label>
         </form>
         <div class="self-center">
-                <input class="rounded-l-md w-40" type="submit" valid="Send Message" id="submit-button" />
+                <input class="rounded-md w-40 text-in-the-area" type="submit" placeholder="Send Message" id="submit-button" />
         </div>
-        <p class="self-end gainsboro">Coded by Aaron Joss using <a href="https://tailwindcss.com/">tailwind.css</a></p>
+        <p class="self-end orange-font">Coded by Aaron Joss using <a href="https://tailwindcss.com/">tailwind.css</a></p>
     </footer>
 </body>
 </html>
