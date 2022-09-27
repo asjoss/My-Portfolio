@@ -2,7 +2,7 @@
     color: #363732;
     width: auto;
     height: auto;
-    font-size: medium;
+    font-size: 16px;
 }
 body {
     background-color: #DCE1E9;
@@ -42,7 +42,7 @@ hr {
     color: #dce1e9;
 }
 .tall-boy {
-    background-color: #ea8c55;
+    background-color: #070707;
     transform: rotate(45deg) translateX(1px) translateY(-1px);
 }
 .tall-boy-butt {
@@ -55,5 +55,11 @@ hr {
     transform: rotate(225deg) translateX(-22px) translateY(-21px);
 }
 .text-in-the-area {
-    color: #363732;
+    color: #0c0c0b;
+    background-color: #ffffff;
+    font-style: italic;
+}
+
+#submit-button {
+    background-color: #ea8c55;
 }

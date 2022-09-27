@@ -64,20 +64,34 @@
     </Main>
     <footer class="flex justify-evenly items-baseline text-1xl project-title align-text-bottom mb-2 mt-2 back-color">
         <h3 class="flex self-center orange-font">Contact me 📡</h3>
-        <form action="#">
+        
+        <form method="POST" id="form" class="flex flex-col space-y-4">
+
+            <input type="hidden" name="access_key" value="Y926e16a7-67bb-4d78-97ec-518f0256d585">
+            <input type="hidden" name="subject" value="New Submission from Web3Forms">
+            <input type="checkbox" name="botcheck" id="" style="display: none;">
+
+            <label for="name">
+                <h4 class="orange-font">Name</h4>
+                <input type="text" name="name" class="text-in-the-area shadow-inner" required>
+            </label>
             <label for="email">
                 <h4 class="orange-font">Email</h4>
-                <input type="email" id="email" class="text-in-the-area" placeholder="Enter your email">
+                <input type="email" id="email" name="email" class="text-in-the-area shadow-inner" placeholder="Enter your email" required>
             </label>
             <label for="message">
                 <h4 class="orange-font">Message</h4>
-                <textarea id="message" class="text-in-the-area">Your Message</textarea>
+                <textarea id="message" name="message" class="text-in-the-area shadow-inner" placeholder="Your Message"></textarea>
              </label>
-        </form>
-        <div class="self-center">
-                <input class="rounded-md w-40 text-in-the-area" type="submit" placeholder="Send Message" id="submit-button" />
-        </div>
-        <p class="self-end orange-font">Coded by Aaron Joss using <a href="https://tailwindcss.com/">tailwind.css</a></p>
+                          
+             <div class="self-center">
+                <button class="rounded-md w-40 text-in-the-area" type="submit" id="submit-button">Submit Message</button>
+            </div>
+            <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+            <div id="result"></div>
+
+        </form>        
+        <p class="self-end orange-font">Coded by Aaron Joss using <a href="https://tailwindcss.com/">tailwind.css</a> and Web3Forms</p>
     </footer>
 </body>
 </html>
