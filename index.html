@@ -7,58 +7,61 @@
   <link href="index.css" rel="stylesheet">
   <script defer src="index.js"></script>
   <title>Aaron Joss - Web Developer</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
 
 <body class="box-border font-mono m-1">
 
-    <header class="flex justify-between top-color p-3">
+    <header class="md: flex flex justify-between top-color p-3">
         <div>Logo/Home icon</div>
         <div>Menu</div>
         <div>Links
             <a href="https://github.com/asjoss">Github</a>
             <a href="https://www.linkedin.com/in/aaron-joss-11522170/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            <a>Codepen</a>
+            <a></a>
         </div>
     </header>
 
     <Main>
-        <section class="flex justify-center">
-            <div class="h-140 w-px mt-8 tall-boy relative origin-top-left"></div>
-            <div class="h-80 w-px -mt-4 tall-boy-butt relative origin-bottom-left"></div>
+        <section class="md:flex flex justify-center">
+            
             <div class="flex flex-wrap justify-between h-104 w-4/5 text-gray-50 back-color my-8 md:flex-row">
                 <div class="flex justify-evenly">
                     <div class="flex flex-col w-1/2 m-5">
                         <h1 class="xtra-lite text-4xl tracking-wider gainsboro">Aaron Joss</h1>
-                        <h2 class="flex-wrap text-6xl tracking-widest gainsboro">Web Developer</h2>
+                        <h2 class="flex-initial text-5xl md:text-6xl lg:text-8xl tracking-widest gainsboro">Web Developer</h2>
                     </div>
-                    <div class="flex flex-col w-1/2">
-                        <img class="self-end object-contain w-40 h-48 md:float-right" src="images/emojimi.jpg" alt="emoji profile pic">
+                    <div class="md: shrink-0 flex flex-col w-1/2">
+                        <img class="flex self-end object-contain w-28 md:w-36 lg:w-48" src="images/emojime.jpg" alt="emoji profile pic">
                     </div>
                 </div>
-                <h3 class="flex self-end leading-loose orange-font w-full p-2 text-justify"> I love to drum, play guitar, play/watch football, laughing with my daughter,
-                        (not)reading(ENOUGH!) fiction/non-fiction, watching (too much) TV and films,
-                        always up for a challenge and....
-                        Favourite snack: Belgian Waffles🤤.
-                </h3>
+                <p class="m-2 leading-loose orange-font iDent">I’m Aaron, a web developer based in Somerset, UK.
+                     I recently graduated from a three-month skills bootcamp hosted by
+                     the University of Bath and am excited to land my first role in the tech industry.
+                     I’ve coded projects using html-5, css and javascript; you can check out some of my work below.</p>
+                <p class="m-2 leading-loose orange-font iDent">I love to drum, play guitar,
+                     play/watch football, laughing with my daughter, (not)reading(ENOUGH!) fiction/non-fiction,
+                     watching (too much) TV and films, and my...
+                     Favourite snack: Belgian Waffles🤤.</p>
             </div>
-            <div class="h-48 w-px outline-box origin-bottom-left"></div>
+            
         </section>
 
 
         <h2 class="text-4xl project-title text-center ultra align-text-bottom mb-2 mt-4 italic tracking-widest">PROJECTS</h2>
         <section class="flex flex-wrap justify-center m-auto">
-            <div class="flex flex-col h-96 w-2/5 borda-color m-10 shadow-lg transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none z-0">
-            Project 1 Screenshot<img class="object-scale-down z-10 md:object-scale-down" src="images/octokirb.JPG" alt="screenshot of Octocat and Kirby talking to each other">
+            <div class="flex flex-col h-85 w-2/5 borda-color m-10 shadow-lg transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none z-0">
+            Project 1<img class="z-10 shrink-0 w-full min-h-max" src="images/octokirb.JPG" alt="screenshot of Octocat and Kirby talking to each other">
 
             </div>
             <div class="flex flex-wrap h-96 w-2/5 borda-color m-10 shadow-lg transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none">
-                <img class="object-scale-down z-10 md:object-scale-down" src="images/resptime.JPG" alt="screenshot of response time tracker">
-            Project 2 Screenshot
+                <img class="shrink-0 z-10 w-full" src="images/resptime.JPG" alt="screenshot of response time tracker">
+            Project 2
             </div>
             <div class="flex flex-wrap h-96 w-2/5 borda-color m-10 shadow-lg transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none">
-                <img class="object-scale-down z-10 md:object-scale-down" src="images/formexercise.JPG" alt="screenshot of form inputs with error message built in Java Script">Project 3 Screenshot
+                <img class="shrink-0 z-10 w-full" src="images/formexercise.JPG" alt="screenshot of form inputs with error message built in Java Script">Project 3
             </div>
-            <div class="flex h-96 w-2/5 borda-color m-10 shadow-lg transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none">Project 4 Screenshot</div>
+            <div class="flex h-96 w-2/5 borda-color m-10 shadow-lg transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none">Project 4</div>
         </section>
 
     </Main>

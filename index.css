@@ -41,14 +41,6 @@ hr {
 .gainsboro {
     color: #dce1e9;
 }
-.tall-boy {
-    background-color: #070707;
-    transform: rotate(45deg) translateX(1px) translateY(-1px);
-}
-.tall-boy-butt {
-    background-color: #ea8c55;
-    transform: rotate(225deg) translateX(-24px) translateY(-21px);
-}
 
 .outline-box {
     background-color: #ea8c55;
@@ -62,4 +54,8 @@ hr {
 
 #submit-button {
     background-color: #ea8c55;
+}
+
+.iDent {
+    text-indent: 3ch;
 }
