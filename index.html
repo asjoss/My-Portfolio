@@ -25,14 +25,14 @@
     <Main>
         <section class="md:flex flex justify-center">
             
-            <div class="flex flex-wrap justify-between h-104 w-4/5 text-gray-50 back-color my-8 md:flex-row">
+            <div class="flex flex-wrap justify-between h-104 w-4/5 text-gray-50 back-color my-8 md:flex-row fonty imG">
                 <div class="flex justify-evenly">
                     <div class="flex flex-col w-1/2 m-5">
-                        <h1 class="xtra-lite text-4xl tracking-wider gainsboro">Aaron Joss</h1>
-                        <h2 class="flex-initial text-5xl md:text-6xl lg:text-8xl tracking-widest gainsboro">Web Developer</h2>
+                        <h1 class="xtra-lite text-5xl md:text-6xl lg:text-8xl tracking-wider w-max gainsboro shadow">Aaron Joss</h1>
+                        <h2 class="flex-initial text-6xl tracking-widest gainsboro shadow">Frontend Developer</h2>
                     </div>
                     <div class="md: shrink-0 flex flex-col w-1/2">
-                        <img class="flex self-end object-contain w-28 md:w-36 lg:w-48" src="images/emojime.jpg" alt="emoji profile pic">
+                        <img class="flex self-end object-contain w-28 md:w-36 lg:w-48 imG" src="images/emojime.jpg" alt="emoji profile pic">
                     </div>
                 </div>
                 <p class="m-2 leading-loose orange-font iDent">I’m Aaron, a web developer based in Somerset, UK.
@@ -50,23 +50,35 @@
 
         <h2 class="text-4xl project-title text-center ultra align-text-bottom mb-2 mt-4 italic tracking-widest">PROJECTS</h2>
         <section class="flex flex-wrap justify-center m-auto">
-            <div class="flex flex-col h-85 w-2/5 borda-color m-10 shadow-lg transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none z-0">
-            Project 1<img class="z-10 shrink-0 w-full min-h-max" src="images/octokirb.JPG" alt="screenshot of Octocat and Kirby talking to each other">
+            
+            <article class="flex flex-wrap test-box">
+                <p>Project 1 - </p>
+                <img class="z-10" src="images/octokirb.JPG" 
+            alt="screenshot of Octocat and Kirby talking to each other">
 
-            </div>
-            <div class="flex flex-wrap h-96 w-2/5 borda-color m-10 shadow-lg transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none">
-                <img class="shrink-0 z-10 w-full" src="images/resptime.JPG" alt="screenshot of response time tracker">
-            Project 2
-            </div>
-            <div class="flex flex-wrap h-96 w-2/5 borda-color m-10 shadow-lg transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none">
-                <img class="shrink-0 z-10 w-full" src="images/formexercise.JPG" alt="screenshot of form inputs with error message built in Java Script">Project 3
-            </div>
-            <div class="flex h-96 w-2/5 borda-color m-10 shadow-lg transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none">Project 4</div>
+            </article>
+
+            <article class="flex flex-wrap test-box">
+                <img class="z-10" src="images/resptime.JPG" alt="screenshot of response time tracker">
+                <p>Project 2 - Time Tracking App</p>
+            </article>
+
+            <article class="flex flex-wrap test-box">
+                <img class="z-10" src="images/formexercise.JPG" alt="screenshot of form inputs with 
+                error message built in Java Script">
+                    <p>Project 3 - Validation</p>
+            </article>
+
+            <article class="flex flex-wrap test-box">
+                <p>Project 4 - Mixed Messages:<span>a bad adivce generator</span></p>
+        
+            </article>
+            
         </section>
 
     </Main>
     <footer class="flex justify-evenly items-baseline text-1xl project-title align-text-bottom mb-2 mt-2 back-color">
-        <h3 class="flex self-center orange-font">Contact me 📡</h3>
+        <h3 class="flex self-center">Contact me 📡</h3>
         
         <form method="POST" id="form" class="flex flex-col space-y-4">
 
@@ -88,13 +100,14 @@
              </label>
                           
              <div class="self-center">
-                <button class="rounded-md w-40 text-in-the-area" type="submit" id="submit-button">Submit Message</button>
+                <button class="rounded-md text-in-the-area" type="submit" id="submit-button">Submit Message</button>
             </div>
             
             <div id="result"></div>
 
         </form>        
-        <p class="self-end orange-font">Coded by Aaron Joss using <a href="https://tailwindcss.com/">tailwind.css</a> and Web3Forms</p>
+        <p class="self-end">Coded by Aaron Joss using <a href="https://tailwindcss.com/">tailwind.css</a> and Web3Forms</p>
     </footer>
+    
 </body>
 </html>
